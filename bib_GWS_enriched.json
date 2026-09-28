@@ -1,0 +1,662 @@
+{
+  "@id": "bib",
+  "skg": {
+    "@id": "bib",
+    "@type": "GESIS_collection",
+    "bib": {
+      "gesis-bib-36899": {
+        "@type": "Publication",
+        "@id": "gesis-bib-36899",
+        "hasIdentifier": [
+          {
+            "@type": "Identifier",
+            "usesIdentifierScheme": "datacite:local-resource-identifier-scheme",
+            "hasLiteralValue": "gesis-bib-36899"
+          }
+        ],
+        "identifier": "gesis-bib-36899",
+        "doctype": {
+          "en": "journal_article",
+          "@none": [
+            "Monographie"
+          ],
+          "de": "Zeitschriftenaufsatz"
+        },
+        "has_fulltext": "0",
+        "topics": {
+          "Zeitschriftenartikel": {
+            "@type": "Topic",
+            "@id": "Zeitschriftenartikel",
+            "name": "Zeitschriftenartikel"
+          }
+        },
+        "provider": {
+          "GESIS": {
+            "@type": "Institute",
+            "@id": "GESIS",
+            "name": "GESIS"
+          }
+        },
+        "src_info": "In: Kölner Zeitschrift für Soziologie und Sozialpsychologie, Jg. 6, 1953/54, S. 404-422.. ISSN 0023-2653",
+        "src_journal": {
+          "Kölner_Zeitschrift_für_Soziologie_und_Sozialpsychologie": {
+            "@type": "Journal",
+            "@id": "Kölner_Zeitschrift_für_Soziologie_und_Sozialpsychologie",
+            "name": "Kölner Zeitschrift für Soziologie und Sozialpsychologie"
+          }
+        },
+        "title": "Ein freier Schriftsteller in der Schweiz",
+        "library": {
+          "GESIS_-_Bibliothek": {
+            "@type": "Institute",
+            "@id": "GESIS_-_Bibliothek",
+            "name": "GESIS - Bibliothek"
+          }
+        },
+        "contributors": {
+          "gesis-bib-36899_Humm_R_J": {
+            "@type": "Person",
+            "@id": "gesis-bib-36899_Humm_R_J",
+            "id_mention": "gesis-bib-36899_Humm_R_J",
+            "name": "Humm, R. J.",
+            "surname": "Humm",
+            "firstnames": [
+              null,
+              null
+            ],
+            "firstinits": [
+              "R",
+              "J"
+            ]
+          }
+        },
+        "library_location": {
+          "Köln_Zeitschriftenaufsatz": {
+            "@type": "Location",
+            "@id": "Köln_Zeitschriftenaufsatz",
+            "name": "Köln Zeitschriftenaufsatz"
+          }
+        },
+        "language": [
+          "Deutsch (DE)"
+        ],
+        "authors": {
+          "gesis-bib-36899_Humm_R_J": {
+            "@type": "Person",
+            "@id": "gesis-bib-36899_Humm_R_J",
+            "id_mention": "gesis-bib-36899_Humm_R_J",
+            "name": "Humm, R. J.",
+            "surname": "Humm",
+            "firstnames": [
+              null,
+              null
+            ],
+            "firstinits": [
+              "R",
+              "J"
+            ]
+          }
+        },
+        "index_source": "GESIS-BIB",
+        "hasLink": {
+          "link_gesis-bib-36899_d1388874b2": {
+            "@id": "link_gesis-bib-36899_d1388874b2",
+            "@type": "Link",
+            "linkType": "https://data.gesis.org/gesiskg/vocab/LinkType/Equivalent",
+            "linkLicense": "https://creativecommons.org/licenses/by/4.0/",
+            "linkSource": "https://data.gesis.org/gesiskg/vocab/Source/GESISKG",
+            "linkEvidence": "Ein freier Schriftsteller in der Schweiz",
+            "linkingMethod": "https://data.gesis.org/gesiskg/vocab/LinkingMethod/automaticGESISKG",
+            "hasTarget": "gesis-solis-00014148",
+            "linkScore": 40.16945,
+            "to_src": "sowiport",
+            "alt_id": null
+          },
+          "link_gesis-bib-36899_af2c9deb09": {
+            "@id": "link_gesis-bib-36899_af2c9deb09",
+            "@type": "Link",
+            "linkType": "https://data.gesis.org/gesiskg/vocab/LinkType/Equivalent",
+            "linkLicense": "https://creativecommons.org/licenses/by/4.0/",
+            "linkSource": "https://data.gesis.org/gesiskg/vocab/Source/GESISKG",
+            "linkEvidence": "Ein freier Schriftsteller in der Schweiz",
+            "linkingMethod": "https://data.gesis.org/gesiskg/vocab/LinkingMethod/automaticGESISKG",
+            "hasTarget": "gesis-solis-00527785",
+            "linkScore": 40.11703,
+            "to_src": "sowiport",
+            "alt_id": null
+          }
+        },
+        "url": "https://search.gesis.org/publication/gesis-bib-36899",
+        "metadataSource": "https://data.gesis.org/gesiskg/vocab/Source/GESIS-Library",
+        "metadataLicense": "GESIS metadata provided through the GESIS Knowledge Graph is available under CC-BY 4.0. https://data.gesis.org/gesiskg/site/"
+      },
+      "gesis-bib-24367": {
+        "@type": "Publication",
+        "@id": "gesis-bib-24367",
+        "hasIdentifier": [
+          {
+            "@type": "Identifier",
+            "usesIdentifierScheme": "datacite:local-resource-identifier-scheme",
+            "hasLiteralValue": "gesis-bib-24367"
+          }
+        ],
+        "identifier": "gesis-bib-24367",
+        "topics": {
+          "Zeitschriftenartikel": {
+            "@type": "Topic",
+            "@id": "Zeitschriftenartikel",
+            "name": "Zeitschriftenartikel"
+          }
+        },
+        "provider": {
+          "GESIS": {
+            "@type": "Institute",
+            "@id": "GESIS",
+            "name": "GESIS"
+          }
+        },
+        "src_journal": {
+          "PS": {
+            "@type": "Journal",
+            "@id": "PS",
+            "name": "PS"
+          }
+        },
+        "title": "Meeting the National Need for Minority Scholars and Scholarship: What Professional Associations Might Do",
+        "library": {
+          "GESIS_-_Bibliothek": {
+            "@type": "Institute",
+            "@id": "GESIS_-_Bibliothek",
+            "name": "GESIS - Bibliothek"
+          }
+        },
+        "contributors": {
+          "gesis-bib-24367_Smith_Robert_C": {
+            "@type": "Person",
+            "@id": "gesis-bib-24367_Smith_Robert_C",
+            "id_mention": "gesis-bib-24367_Smith_Robert_C",
+            "name": "Smith, Robert C.",
+            "surname": "Smith",
+            "firstnames": [
+              "Robert",
+              null
+            ],
+            "firstinits": [
+              "R",
+              "C"
+            ]
+          },
+          "gesis-bib-24367_Garcia_John_A": {
+            "@type": "Person",
+            "@id": "gesis-bib-24367_Garcia_John_A",
+            "id_mention": "gesis-bib-24367_Garcia_John_A",
+            "name": "Garcia, John A.",
+            "surname": "Garcia",
+            "firstnames": [
+              "John",
+              null
+            ],
+            "firstinits": [
+              "J",
+              "A"
+            ]
+          }
+        },
+        "library_location": {
+          "Köln_Zeitschriftenaufsatz": {
+            "@type": "Location",
+            "@id": "Köln_Zeitschriftenaufsatz",
+            "name": "Köln Zeitschriftenaufsatz"
+          }
+        },
+        "language": [
+          "Englisch (EN)"
+        ],
+        "doctype": {
+          "de": "Zeitschriftenaufsatz",
+          "en": "journal_article",
+          "@none": [
+            "Monographie"
+          ]
+        },
+        "authors": {
+          "gesis-bib-24367_Garcia_John_A": {
+            "@type": "Person",
+            "@id": "gesis-bib-24367_Garcia_John_A",
+            "id_mention": "gesis-bib-24367_Garcia_John_A",
+            "name": "Garcia, John A.",
+            "surname": "Garcia",
+            "firstnames": [
+              "John",
+              null
+            ],
+            "firstinits": [
+              "J",
+              "A"
+            ]
+          },
+          "gesis-bib-24367_Smith_Robert_C": {
+            "@type": "Person",
+            "@id": "gesis-bib-24367_Smith_Robert_C",
+            "id_mention": "gesis-bib-24367_Smith_Robert_C",
+            "name": "Smith, Robert C.",
+            "surname": "Smith",
+            "firstnames": [
+              "Robert",
+              null
+            ],
+            "firstinits": [
+              "R",
+              "C"
+            ]
+          }
+        },
+        "index_source": "GESIS-BIB",
+        "has_fulltext": "0",
+        "src_info": "In: PS, Vol. 23, 1990, Nr. 1, S.62-63.",
+        "url": "https://search.gesis.org/publication/gesis-bib-24367",
+        "metadataSource": "https://data.gesis.org/gesiskg/vocab/Source/GESIS-Library",
+        "metadataLicense": "GESIS metadata provided through the GESIS Knowledge Graph is available under CC-BY 4.0. https://data.gesis.org/gesiskg/site/"
+      },
+      "gesis-bib-151981": {
+        "@type": "Publication",
+        "@id": "gesis-bib-151981",
+        "hasIdentifier": [
+          {
+            "@type": "Identifier",
+            "usesIdentifierScheme": "datacite:local-resource-identifier-scheme",
+            "hasLiteralValue": "gesis-bib-151981"
+          }
+        ],
+        "identifier": "gesis-bib-151981",
+        "topics": {
+          "pdf": {
+            "@type": "Topic",
+            "@id": "pdf",
+            "name": "pdf"
+          },
+          "Primärliteratur": {
+            "@type": "Topic",
+            "@id": "Primärliteratur",
+            "name": "Primärliteratur"
+          },
+          "GESIS-Studie": {
+            "@type": "Topic",
+            "@id": "GESIS-Studie",
+            "name": "GESIS-Studie"
+          }
+        },
+        "title": "BIBB-Übergangsstudie 2006 : Version 1.0",
+        "publisher": {
+          "Bundesinstitut_für_Berufsbildung": {
+            "@type": "Publisher",
+            "@id": "Bundesinstitut_für_Berufsbildung",
+            "name": "Bundesinstitut für Berufsbildung"
+          }
+        },
+        "authors": {
+          "gesis-bib-151981_Rohrbach-Schmidt_Daniela": {
+            "@type": "Person",
+            "@id": "gesis-bib-151981_Rohrbach-Schmidt_Daniela",
+            "id_mention": "gesis-bib-151981_Rohrbach-Schmidt_Daniela",
+            "name": "Rohrbach-Schmidt, Daniela",
+            "surname": "Rohrbach-Schmidt",
+            "firstnames": [
+              "Daniela"
+            ],
+            "firstinits": [
+              "D"
+            ]
+          }
+        },
+        "index_source": "GESIS-BIB",
+        "series": {
+          "(BIBB-FDZ_Daten-_und_Methodenberichte_;_1/2010)": {
+            "@type": "Series",
+            "@id": "_BIBB-FDZ_Daten-_und_Methodenberichte___1_2010_",
+            "name": "(BIBB-FDZ Daten- und Methodenberichte ; 1/2010)"
+          }
+        },
+        "src_info": "Bonn: Bundesinstitut für Berufsbildung, 2010.- 53 S.",
+        "doctype": {
+          "en": "book",
+          "@none": [
+            "Elektronische Ressource"
+          ],
+          "de": "Buch"
+        },
+        "has_fulltext": "1",
+        "provider": {
+          "GESIS": {
+            "@type": "Institute",
+            "@id": "GESIS",
+            "name": "GESIS"
+          }
+        },
+        "date_pub": "2010",
+        "date_recency": "2010",
+        "library": {
+          "GESIS_-_Bibliothek": {
+            "@type": "Institute",
+            "@id": "GESIS_-_Bibliothek",
+            "name": "GESIS - Bibliothek"
+          }
+        },
+        "contributors": {
+          "gesis-bib-151981_Rohrbach-Schmidt_Daniela": {
+            "@type": "Person",
+            "@id": "gesis-bib-151981_Rohrbach-Schmidt_Daniela",
+            "id_mention": "gesis-bib-151981_Rohrbach-Schmidt_Daniela",
+            "name": "Rohrbach-Schmidt, Daniela",
+            "surname": "Rohrbach-Schmidt",
+            "firstnames": [
+              "Daniela"
+            ],
+            "firstinits": [
+              "D"
+            ]
+          }
+        },
+        "library_location": {
+          "Köln_Elektronische_Ressource": {
+            "@type": "Location",
+            "@id": "Köln_Elektronische_Ressource",
+            "name": "Köln Elektronische Ressource"
+          }
+        },
+        "language": [
+          "Deutsch (DE)"
+        ],
+        "hasLink": {
+          "link_gesis-bib-151981_c833555ca2": {
+            "@id": "link_gesis-bib-151981_c833555ca2",
+            "@type": "Link",
+            "linkType": "https://data.gesis.org/gesiskg/vocab/LinkType/Equivalent",
+            "linkLicense": "https://creativecommons.org/licenses/by/4.0/",
+            "linkSource": "https://data.gesis.org/gesiskg/vocab/Source/GESISKG",
+            "linkEvidence": "BIBB-Übergangsstudie 2006 : Version 1.0",
+            "linkingMethod": "https://data.gesis.org/gesiskg/vocab/LinkingMethod/automaticGESISKG",
+            "hasTarget": "gesis-bib-151981-LP",
+            "linkScore": 50.859615,
+            "to_src": "gesis",
+            "alt_id": null
+          },
+          "link_gesis-bib-151981_ef5bfb4fc6": {
+            "@id": "link_gesis-bib-151981_ef5bfb4fc6",
+            "@type": "Link",
+            "linkType": "https://data.gesis.org/gesiskg/vocab/LinkType/Citation",
+            "linkLicense": "https://creativecommons.org/licenses/by/4.0/",
+            "linkSource": "https://data.gesis.org/gesiskg/vocab/Source/GESIS-Library",
+            "referenceType": "study_number",
+            "linkEvidence": "ZA5231",
+            "linkingMethod": "https://data.gesis.org/gesiskg/vocab/LinkingMethod/manualLibrary",
+            "hasTarget": "ZA5231",
+            "linkScore": 12.436627,
+            "to_src": "gesis",
+            "alt_id": "10.4232/1.10099"
+          },
+          "link_gesis-bib-151981_ac3f80142f": {
+            "@id": "link_gesis-bib-151981_ac3f80142f",
+            "@type": "Link",
+            "linkType": "https://data.gesis.org/gesiskg/vocab/LinkType/Citation",
+            "linkLicense": "https://creativecommons.org/licenses/by/4.0/",
+            "linkSource": "https://data.gesis.org/gesiskg/vocab/Source/GESIS-Library",
+            "referenceType": "study_title",
+            "linkEvidence": "BIBB-Übergangsstudie 2006",
+            "linkingMethod": "https://data.gesis.org/gesiskg/vocab/LinkingMethod/manualLibrary",
+            "hasTarget": "ZA5231",
+            "linkScore": 38.13302,
+            "to_src": "gesis",
+            "alt_id": "10.4232/1.10099"
+          }
+        },
+        "url": "https://search.gesis.org/publication/gesis-bib-151981",
+        "metadataSource": "https://data.gesis.org/gesiskg/vocab/Source/GESIS-Library",
+        "metadataLicense": "GESIS metadata provided through the GESIS Knowledge Graph is available under CC-BY 4.0. https://data.gesis.org/gesiskg/site/"
+      }
+    "name": "GESIS BIB"
+  },
+  "@context": {
+    "@base": "https://data.gesis.org/gesiskg/resource/",
+    "gesiskg": "https://data.gesis.org/gesiskg/schema/",
+    "datacite": "http://purl.org/spar/datacite/",
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skg": {
+      "@id": "@graph",
+      "@type": "@id"
+    },
+    "bib": {
+      "@id": "https___schema.org_hasPart",
+      "@container": "@index",
+      "@type": "https://schema.org/ScholarlyArticle"
+    },
+    "id": {
+      "@id": "https___data.gesis.org_gesiskg_schema_gesisRefID",
+      "@type": "https://schema.org/identifier"
+    },
+    "isbn": {
+      "@id": "https___schema.org_isbn",
+      "@type": "https://schema.org/identifier"
+    },
+    "identifier": {
+      "@id": "https___schema.org_identifier",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasIdentifier": {
+      "@id": "http___purl.org_spar_datacite_hasIdentifier",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "Identifier": "http://purl.org/spar/datacite/Identifier",
+    "usesIdentifierScheme": {
+      "@id": "http___purl.org_spar_datacite_usesIdentifierScheme",
+      "@type": "@id"
+    },
+    "hasLiteralValue": {
+      "@id": "http___www.essepuntato.it_2010_06_literalreification_hasLiteralValue",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "IdentifierScheme": "http://purl.org/spar/datacite/IdentifierScheme",
+    "doi": {
+      "@id": "http___purl.org_spar_datacite_doi",
+      "@type": "@id"
+    },
+    "orcid": {
+      "@id": "http___purl.org_spar_datacite_orcid",
+      "@type": "@id"
+    },
+    "issn": {
+      "@id": "http___purl.org_spar_datacite_issn",
+      "@type": "@id"
+    },
+    "urn": {
+      "@id": "http___purl.org_spar_datacite_urn",
+      "@type": "@id"
+    },
+    "doctype": {
+      "@id": "https___schema.org_publicationType",
+      "@type": "http://www.w3.org/2001/XMLSchema#string",
+      "@container": [
+        "@type",
+        "@set",
+        "@language"
+      ]
+    },
+    "language": {
+      "@id": "https___schema.org_inLanguage",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "provider": {
+      "@id": "https___schema.org_provider",
+      "@container": "@index",
+      "@type": "https://schema.org/Organization"
+    },
+    "library": {
+      "@id": "https___schema.org_provider",
+      "@container": "@index",
+      "@type": "https://schema.org/Organization"
+    },
+    "name": {
+      "@id": "https___schema.org_name",
+      "@type": "http://www.w3.org/2001/XMLSchema#string",
+      "@container": [
+        "@type",
+        "@language"
+      ]
+    },
+    "title": {
+      "@id": "https___schema.org_name",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "id_mention": {
+      "@id": "https___data.gesis.org_gesiskg_schema_mentionID",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "surname": {
+      "@id": "https___schema.org_familyName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "firstnames": {
+      "@id": "https___schema.org_givenName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "firstinits": {
+      "@id": "https___data.gesis.org_gesiskg_schema_initsFirst",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "authors": {
+      "@id": "https___schema.org_author",
+      "@container": "@index",
+      "@type": "https://schema.org/Person"
+    },
+    "editors": {
+      "@id": "https___schema.org_editor",
+      "@container": "@index",
+      "@type": "https://schema.org/Person"
+    },
+    "contributors": {
+      "@id": "https___schema.org_contributor",
+      "@container": "@index",
+      "@type": "https://schema.org/Person"
+    },
+    "publisher": {
+      "@id": "https___schema.org_publisher",
+      "@container": "@index",
+      "@type": "https://schema.org/Organization"
+    },
+    "date_recency": {
+      "@id": "https___schema.org_dateModified",
+      "@type": "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "date_pub": {
+      "@id": "https___schema.org_datePublished",
+      "@type": "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "abstract": {
+      "@id": "https___schema.org_abstract",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "topics": {
+      "@id": "https___schema.org_keywords",
+      "@container": "@index",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "subjects": {
+      "@id": "https___schema.org_about",
+      "@container": "@index",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "prefLabel": {
+      "@id": "http___www.w3.org_2004_02_skos_core#prefLabel",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "src_info": {
+      "@id": "https___data.gesis.org_gesiskg_schema_sourceInfo",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "series": {
+      "@id": "https___schema.org_isPartOf",
+      "@container": "@index",
+      "@type": "https://schema.org/CreativeWorkSeries"
+    },
+    "hasLink": {
+      "@id": "https___data.gesis.org_gesiskg_schema_hasLink",
+      "@container": "@index",
+      "@type": "https://data.gesis.org/gesiskg/schema/Link"
+    },
+    "linkType": {
+      "@id": "https___data.gesis.org_gesiskg_schema_linkType",
+      "@type": "@id"
+    },
+    "referenceType": {
+      "@id": "https___data.gesis.org_gesiskg_schema_referenceType",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "linkEvidence": {
+      "@id": "https___data.gesis.org_gesiskg_schema_linkEvidence",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "linkingMethod": {
+      "@id": "https___data.gesis.org_gesiskg_schema_linkingMethod",
+      "@type": "@id"
+    },
+    "linkLicense": {
+      "@id": "https___data.gesis.org_gesiskg_schema_linkLicense",
+      "@type": "@id"
+    },
+    "linkSource": {
+      "@id": "https___data.gesis.org_gesiskg_schema_linkSource",
+      "@type": "@id"
+    },
+    "linkScore": {
+      "@id": "https___data.gesis.org_gesiskg_schema_linkScore",
+      "@type": "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "hasTarget": {
+      "@id": "https___data.gesis.org_gesiskg_schema_hasTarget",
+      "@type": "@id"
+    },
+    "metadataSource": {
+      "@id": "https___data.gesis.org_gesiskg_schema_metadataSource",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "metadataLicense": {
+      "@id": "https___data.gesis.org_gesiskg_schema_metadataLicense",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "links": {
+      "@id": "https___schema.org_url",
+      "@type": "@id"
+    },
+    "url": {
+      "@id": "https___schema.org_url",
+      "@type": "@id"
+    },
+    "src_collection": {
+      "@id": "https___data.gesis.org_gesiskg_schema_sourceCollection",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "src_journal": {
+      "@id": "https___schema.org_isPartOf",
+      "@container": "@index",
+      "@type": "https://schema.org/CreativeWorkSeries"
+    },
+    "notes": {
+      "@id": "https___schema.org_comment",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Journal": "https://schema.org/CreativeWorkSeries",
+    "Research_data": "https://schema.org/Dataset",
+    "GESIS_collection": "https://schema.org/DataCatalog",
+    "Publication": "https://schema.org/ScholarlyArticle",
+    "Institute": "https://schema.org/Organization",
+    "Location": "https://schema.org/Place",
+    "Person": "https://schema.org/Person",
+    "Topic": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Publisher": "https://schema.org/Organization",
+    "Series": "https://schema.org/CreativeWorkSeries",
+    "Link": "https://data.gesis.org/gesiskg/schema/Link"
+  },
+  "name": "GESIS BIB"
+}
