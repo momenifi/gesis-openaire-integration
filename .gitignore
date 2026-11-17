@@ -1,0 +1,12 @@
+json_input/
+xml_output/
+xml_output_test/
+final_xml_openaire/
+joai_test/
+final_xml_datacite/
+
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*

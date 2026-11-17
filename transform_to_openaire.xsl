@@ -34,6 +34,15 @@
 					</xsl:otherwise>
 				  </xsl:choose>
 			  </datacite:identifier>
+			  <xsl:if test="hasIdentifier/item[usesIdentifierScheme='datacite:doi' and normalize-space(hasLiteralValue)]">
+				<datacite:alternateIdentifiers>
+				  <xsl:for-each select="hasIdentifier/item[usesIdentifierScheme='datacite:doi' and normalize-space(hasLiteralValue)]">
+					<datacite:alternateIdentifier alternateIdentifierType="DOI">
+					  <xsl:value-of select="hasLiteralValue"/>
+					</datacite:alternateIdentifier>
+				  </xsl:for-each>
+				</datacite:alternateIdentifiers>
+			  </xsl:if>
 			  <xsl:if test="hasLink/*/hasIdentifier/item[usesIdentifierScheme='doi' and hasLiteralValue]
 						  or hasLink/*/hasTarget[starts-with(., 'ZA')]
 						  or hasLink/*/hasTarget[starts-with(., 'gesis-bib-')]">
@@ -88,15 +97,24 @@
 
 			  </xsl:if>
 
-			  <datacite:creators>
-				<xsl:for-each select="authors/*">
-				  <datacite:creator>
-					<datacite:creatorName>
-					  <xsl:value-of select="name"/>
-					</datacite:creatorName>
-				  </datacite:creator>
-				</xsl:for-each>
-			  </datacite:creators>
+			  <xsl:if test="authors/*[normalize-space(name) or (self::item and normalize-space(.))]">
+				<datacite:creators>
+				  <xsl:for-each select="authors/*[normalize-space(name) or (self::item and normalize-space(.))]">
+					<datacite:creator>
+					  <datacite:creatorName>
+						<xsl:choose>
+						  <xsl:when test="normalize-space(name)">
+							<xsl:value-of select="name"/>
+						  </xsl:when>
+						  <xsl:otherwise>
+							<xsl:value-of select="."/>
+						  </xsl:otherwise>
+						</xsl:choose>
+					  </datacite:creatorName>
+					</datacite:creator>
+				  </xsl:for-each>
+				</datacite:creators>
+			  </xsl:if>
 
 			  <datacite:titles>
 				<datacite:title>
@@ -134,9 +152,9 @@
 				</datacite:subjects>
 			  </xsl:if>
 
-			  <xsl:if test="contributors/*/name">
+			  <xsl:if test="contributors/*[normalize-space(name)]">
 				<datacite:contributors>
-				  <xsl:for-each select="contributors/*">
+				  <xsl:for-each select="contributors/*[normalize-space(name)]">
 					<datacite:contributor>
 					  <datacite:contributorName>
 						<xsl:value-of select="name"/>
